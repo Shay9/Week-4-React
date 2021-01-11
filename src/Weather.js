@@ -13,9 +13,8 @@ export default function Weather() {
 
   return (
     <div>
-      <div className="weather-app">
-      <span>
-        <a className="celcius-farenheit" href="#">C°</a> | <a className="celcius-farenheit" href="/">F°</a>
+      <span className="celcius-farenheit">
+        <a href="#">C°</a> | <a href="/">F°</a>
       </span>
       <form className="searchbar">
         <input
@@ -26,17 +25,15 @@ export default function Weather() {
         />
         <input className="btn btn-primary" type="submit" value="Submit" />
       </form>
-      <h2 className="city">Toronto </h2>
-      <h1 className="temperature"> 5° C</h1>
+      <h2>Toronto </h2>
+      <h1> 5° C</h1>
       <h2>
         <ul>
-          <li className="description"> Snowing </li>
-          <br/>
-          <li className="time"> 6:30pm </li>
-          <br/>
-          <li className="day">
-            <span className="day"> Saturday </span>
-            
+          <li> Snowing </li>
+          <li> 6:30pm </li>
+          <li>
+            <span> Saturday </span>
+            <span className="time"> {weatherInfo.time} </span>
           </li>
         </ul>
       </h2>
@@ -47,13 +44,6 @@ export default function Weather() {
           <li>Wind: 5 km/h</li>
         </ul>
       </h3>
-      <span className="weekday"> Monday </span>
-      <span className="weekday"> Tuesday </span>
-      <span className="weekday"> Wednesday </span>
-      <span className="weekday"> Thursday </span>
-       <span className="weekday"> Friday </span>
-      
-
       <form className="current-location-btn">
         <input
           className="btn btn-primary"
@@ -72,8 +62,6 @@ export default function Weather() {
           by Shadea Nance
         </small>
       </footer>
-      </div>
     </div>
   );
 }
-

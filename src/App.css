@@ -1,38 +1,141 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+.weather-app {
+  max-width: 650px;
+  margin: 80px auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  font-family: "Titillium Web", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.celcius-farenheit {
+  text-decoration: none;
+  color: white;
+
+  border-radius: 3px;
+  padding: 4px;
+  font-size: 20px;
+}
+.celcius-farenheit:hover {
+  text-decoration: none;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.searchbar {
+  position: relative;
+  left: 350px;
+  bottom: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.search {
+  padding: 10px;
+}
+
+.temperature {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  left: 20px;
+  font-size: 40px;
+  font-weight: 50px;
+}
+
+.degree-sign {
+  color: white;
+  position: relative;
+  bottom: 83px;
+  left: 130px;
+}
+
+.city {
+  position: relative;
+  color: white;
+  bottom: -10px;
+  left: 15px;
+  font-size: 30px;
+}
+
+.icon {
+  position: relative;
+  bottom: 170px;
+  left: 170px;
+  padding: 10px;
+}
+
+.time {
+  color: white;
+  list-style: none;
+}
+
+.day-time {
+  position: relative;
+  bottom: 20px;
+}
+
+.description {
+  color: white;
+  list-style: none;
+}
+.day {
+  color: white;
+  list-style: none;
+}
+
+.weather-elements {
+  display: inline-block;
+  list-style: none;
+  position: relative;
+  left: 325px;
+  bottom: 225px;
+  color: white;
+  font-weight: lighter;
+  line-height: 40px;
+  font-size: 25px;
+}
+
+.basic-elements {
+  color: white;
+  position: relative;
+  top: 10px;
+  right: 20px;
+  list-style: none;
+  font-size: 23px;
+  font-weight: lighter;
+  line-height: 40px;
+}
+
+.forecast {
+  color: white;
+  position: relative;
+  bottom: 200px;
+}
+
+.current-location-btn {
+  position: relative;
+  left: 250px;
+  top: -120px;
+}
+
+.footer {
+  position: relative;
+  top: -90px;
+  left: 205px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  margin: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weekday {
+  color: white;
+  position: relative;
+  bottom: 170px;
+  left: 35px;
+  font-size: 20px;
+  word-spacing: 20px;
 }

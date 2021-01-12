@@ -1,21 +1,12 @@
 import React from "react";
 import "./App.css";
 
-export default function Weather() {
-  let weatherInfo = {
-    temperature: 5,
-    city: "Toronto",
-    time: "12:30",
-    description: "cloudy",
-    humidity: "8%",
-    wind: "5 k/h"
-  };
 
   return (
     <div>
       <div className="weather-app">
       <span>
-        <a className="celcius-farenheit" href="#">C°</a> | <a className="celcius-farenheit" href="/">F°</a>
+        <button className="celcius-farenheit" href="#">C°</button> | <button className="celcius-farenheit" href="/">F°</button>
       </span>
       <form className="searchbar">
         <input
@@ -76,5 +67,5 @@ export default function Weather() {
       </div>
     </div>
   );
-}
+
 

@@ -2,19 +2,20 @@ import React from "react";
 import "./App.css";
 
 export default function Weather() {
-  let weatherInfo = {
+    let temperature 
     temperature: 5,
     city: "Toronto",
     time: "12:30",
     description: "cloudy",
     humidity: "8%",
     wind: "5 k/h"
+    
   };
 
   return (
     <div>
       <span className="celcius-farenheit">
-        <a href="#">C°</a> | <a href="/">F°</a>
+        <span href="#">C°</span> | <span href="/">F°</span>
       </span>
       <form className="searchbar">
         <input
@@ -37,7 +38,7 @@ export default function Weather() {
           </li>
         </ul>
       </h2>
-      <img src="" className="icon" />
+      <img src="" className="icon" alt="Weather Type" />
       <h3>
         <ul className="weather-elements">
           <li>Humidity: 20%</li>
@@ -56,6 +57,7 @@ export default function Weather() {
           <a
             href="https://github.com/Shay9/SheCodes-Plus-Final.git"
             target="_blank"
+            rel="noreferrer"
           >
             Open-sourced Code
           </a>
@@ -64,4 +66,4 @@ export default function Weather() {
       </footer>
     </div>
   );
-}
+

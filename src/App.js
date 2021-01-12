@@ -40,7 +40,7 @@ export default function Weather() {
           </li>
         </ul>
       </h2>
-      <img src="" className="icon" />
+      <img src="" className="icon" alt="Weather"/>
       <h3>
         <ul className="weather-elements">
           <li>Humidity: 20%</li>
@@ -66,6 +66,7 @@ export default function Weather() {
           <a
             href="https://github.com/Shay9/SheCodes-Plus-Final.git"
             target="_blank"
+            rel="noreferrer"
           >
             Open-sourced Code
           </a>

@@ -1,16 +1,7 @@
 import React from "react";
 import "./App.css";
 
-export default function Weather() {
-    let temperature 
-    temperature: 5,
-    city: "Toronto",
-    time: "12:30",
-    description: "cloudy",
-    humidity: "8%",
-    wind: "5 k/h"
-    
-  };
+
 
   return (
     <div>

@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-​
 export default function Weather() {
   return (
     <div>
@@ -48,7 +47,6 @@ export default function Weather() {
         <span className="weekday"> Wednesday </span>
         <span className="weekday"> Thursday </span>
         <span className="weekday"> Friday </span>
-​
         <form className="current-location-btn">
           <input
             className="btn btn-primary"
@@ -72,4 +70,3 @@ export default function Weather() {
     </div>
   );
 }
-

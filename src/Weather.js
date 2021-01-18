@@ -64,6 +64,13 @@ export default function Weather() {
               Open-sourced Code
             </a>
             by Shadea Nance
+            <a
+            href="https://github.com/Shay9/Week-4-React"
+            target="_blank"
+            rel="noreferrer"
+            >
+              Github repository
+            </a>
           </small>
         </footer>
       </div>
